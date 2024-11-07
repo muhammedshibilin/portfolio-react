@@ -1,0 +1,51 @@
+@import "../../vars.css";
+
+.about {
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem; /* Reduced from 1.8rem for better readability */
+  padding: 50px 50px 40px 40px;
+  word-wrap: break-word;
+  font-family: var(--font-roboto); 
+}
+
+.socialIcons {
+  margin-top: 0.6rem;
+  background-color: var(--color-primary);
+  border-radius: 1.8rem;
+  width: 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+.socialIcons a {
+  margin: 10px;
+  font-size: 1.4rem; /* Slightly reduced from 1.7rem */
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.socialIcons a:hover {
+  color: #0077b5;
+}
+
+@media (max-width: 768px) {
+  .about {
+    font-size: 1rem; /* Slightly reduced from 1.1rem */
+    padding: 30px 20px 10px 10px;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  .socialIcons a {
+    font-size: 1.1rem; /* Slightly reduced from 1.2rem */
+  }
+}

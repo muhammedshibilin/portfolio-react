@@ -5,7 +5,7 @@ export const Me = () => {
   return (
     <section className={styles.container}>
     <div className={styles.content}>
-      <h1 className={styles.title}>Hi, I,m ziblyy</h1>
+      <h1 className={styles.title}>Hi, I'm Muhammed shibili n</h1>
       <p className={styles.description}>
         I'm a full-stack developer  using React,angular,
         NodeJS and Nest js. Reach out if you would like to earn more!
